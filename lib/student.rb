@@ -7,8 +7,8 @@ class Student < User
   end
 
   def learn
-    KNOWLEDGE << ""
+    @knowledge << (" ")
   end
-  
+
 
 end
