@@ -2,6 +2,7 @@ class Student < User
 
   attr_accessor :knowledge
 
-  knowledge = []
-
+  def new
+    knowledge = []
+  end
 end
